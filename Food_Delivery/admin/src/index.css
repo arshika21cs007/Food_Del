@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* Outfit font support in project */
+  font-family: Outfit;
+}
+body{
+  min-height: 100vh;
+  background-color: #fcfcfc;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+hr{
+  border: none;
+  height: 1px;
+  background-color: #a9a9a9;
+}
+.app-content{
+  display: flex;
+}
+/* Used flex-col for Xple times. so use it commonly here */
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.cursor{
+  cursor: pointer;
+}

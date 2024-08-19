@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Outfit:wght@100..900&display=swap');
+/* Entire webpage */
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  /* for the use of google fonts */
+  font-family: Outfit;
+  /* To make scroll for smooth */
+  scroll-behavior: smooth;
+}
+/* vh-viewport Height */
+body{
+  min-height: 100vh;
+}
+/* a- anchor tag(used to represent links), inherit --takes from its parent */
+a{
+  text-decoration:none;
+  color: inherit;
+}
+.app{
+  width:80%;
+  /* leaves space at margin equally */
+  margin:auto;
+}
+/* provide fading effect */
+@keyframes fadeIn {
+  0%{
+    /* element invisible */
+    opacity: 0;
+  }
+  100%{
+    /* element fully visible */
+    opacity: 1;
+  }
+}
