@@ -1,4 +1,9 @@
 # Food Del - Full Stack Food Ordering Website
+<p align="center">
+   <img src="Food_Del_1.png" width="500" height="350" style="display: inline-block; margin: 0 10px;" alt="Vitalcare Image 1">
+   <img src="Food_Del_2.png" width="500" height="350" style="display: inline-block; margin: 0 10px;" alt="Vitalcare Image 2">
+</p>
+
 
 **A complete food ordering website/app using React JS, MongoDB, Express, Node JS, and Stripe payment gateway.**  
 This project includes a Frontend website, Admin Panel, and Backend server with features such as user authentication, shopping cart functionality, Stripe payment integration, and order status updates.
